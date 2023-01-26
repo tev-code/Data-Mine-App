@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data Mining App</title>
+  </head>
+  <body class="bg-gray-900 text-white mx-auto">
+    <h1 class="text-2xl font-medium mb-4">Data Mining App</h1>
+    <form id="data-form" class="bg-gray-800 p-4 rounded-lg">
+    <label for="data-input" class="block text-sm font-medium mb-2">Enter data:</label>
+    <input type="text" name="data-input" id="data-input" class="bg-gray-700 p-2 rounded-lg">
+    <button type="submit" class="bg-blue-500 text-white p-2 rounded-lg hover:bg-blue-600">Submit</button>
+    </form>
+    <div id="data-container" class="bg-gray-800 p-4 rounded-lg"></div>
+    <div id="average" class="bg-gray-800 p-4 rounded-lg"></div>
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>
